@@ -23,7 +23,12 @@ We'll need to install some new software before continuing.
     ```
 
 3.  We need to define some environment variables so `turtlebot_stage` will run:
-    - First, open your `.bashrc` file:
+	- **MAKE A COPY OF YOUR .bashrc FILE:**
+	    ```
+	    cp ~/.bashrc ~/.bashrc_backup
+	    ```
+	    
+    - Then, open your `.bashrc` file:
         ``` 
         pico ~/.bashrc
         ```
