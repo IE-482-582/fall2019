@@ -23,9 +23,14 @@ We'll need to install some new software before continuing.
     ```
 
 3.  We need to define some environment variables so `turtlebot_stage` will run:
-    - First, open your `.bashrc` file:
+	- **MAKE A COPY OF YOUR .bashrc FILE:**
+	    ```
+	    cp ~/.bashrc ~/.bashrc_backup
+	    ```
+	    
+    - Then, open your `.bashrc` file:
         ``` 
-        pico ~/.basrhc
+        pico ~/.bashrc
         ```
     - Next, paste the following at the **bottom** of the file:
         ```
@@ -166,7 +171,7 @@ When you're done, cancel out of your terminals (`ctrl-c`) in the following order
 
 - **TERMINAL 3**
     ```
-    rostopic list                 # (optional) 
+    rostopic list                 #basr (optional) 
     rostopic echo map_metadata    # (optional) 
     rosrun rviz rviz
     ```
